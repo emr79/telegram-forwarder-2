@@ -15,7 +15,7 @@ TO_CHAT = 'akooaaj'
 
 # --- رقم هاتفك مباشرة في الكود ---
 PHONE_NUMBER = '+9647838978624'  # ⬅️ رقمك هنا
-STRING_SESSION = ''  # اتركه فارغاً لأول مرة
+STRING_SESSION = '1ApWapzMBuweUVYUyz4xfSm4lVLJK-ny42-VqwDD4FwKjAYTy91_agD_N1gj9G0t6d3Rp3JRr6akSqL7dgLGsTMhPlKHBLui87-C3phwPp6AvDxWdMXsFzAxo8V-W_nRfulVGfhFWFEQV22JkmH609-7zxdmkQ5EfQ8DBiJRx9wDYaZ-gS_Ef607PTggE44_v8_OfI-eWZtZA3h3Pdv_dUQB5lxQNw_DFK8qz_Kv1oDzkUQq6CLAgFOItHNMgKHMUfa6NjE403VLk27CsHyGpRF-Yg0AK7P8ts7NVpqDpWjJyE6zIAaUDx0Cy_iE3iO6iuaRo4Ym13pL3-Sxp1i0S5VSKEli78wE='  # اتركه فارغاً لأول مرة
 
 # إعداد السجلات
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -151,4 +151,3 @@ if __name__ == "__main__":
         logger.info("🛑 تم إوقف البرنامج يدوياً.")
     except Exception as e:
         logger.error(f"💥 خطأ في التشغيل: {e}")
-
